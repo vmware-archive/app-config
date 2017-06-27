@@ -12,8 +12,8 @@ logging:
       pivotal: DEBUG
     com:
       netflix:
-        eureka: OFF
-        discovery: OFF
+        eureka: ERROR
+        discovery: ERROR
 
 spring: # <---NEW SECTION
   cloud:
