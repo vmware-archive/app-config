@@ -12,13 +12,13 @@ logging:
       pivotal: DEBUG
     com:
       netflix:
-        eureka: DEBUG #OFF
-        discovery: DEBUG #OFF
+        eureka: OFF #OFF
+        discovery: OFF #OFF
 
 spring: # <---NEW SECTION
   cloud:
     services:
-      registrationMethod: direct #route #direct
+      registrationMethod: route #direct
 
 ribbon: # <---NEW SECTION
   IsSecure: false
