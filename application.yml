@@ -15,10 +15,9 @@ logging:
         eureka: INFO #OFF
         discovery: INFO #OFF
 
-spring: # <---NEW SECTION
-  cloud:
-    services:
-      registrationMethod: route #direct #route
+##### spring.cloud.services.registrationMethod #####
+# To change value of spring.cloud.services.registrationMethod to 
+# "direct" (default is "route"), add "c2c" to active profiles
 
 ribbon: # <---NEW SECTION
   IsSecure: false
