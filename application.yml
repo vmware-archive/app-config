@@ -9,11 +9,11 @@ management:
 logging:
   level:
     io:
-      pivotal: INFO
+      pivotal: DEBUG
     com:
       netflix:
-        eureka: INFO #OFF
-        discovery: INFO #OFF
+        eureka: DEBUG #OFF
+        discovery: DEBUG #OFF
 
 ##### spring.cloud.services.registrationMethod #####
 # To change value of spring.cloud.services.registrationMethod to 
