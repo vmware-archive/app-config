@@ -12,8 +12,8 @@ logging:
       pivotal: DEBUG
     com:
       netflix:
-        eureka: DEBUG #OFF
-        discovery: DEBUG #OFF
+        eureka: INFO #OFF
+        discovery: INFO #OFF
 
 ##### spring.cloud.services.registrationMethod #####
 # To change value of spring.cloud.services.registrationMethod to 
