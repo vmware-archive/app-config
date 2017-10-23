@@ -10,7 +10,7 @@ logging:
   level:
     io:
       pivotal: DEBUG
-#    com:
+    com: DEBUG
 #      netflix: INFO
 #        eureka: INFO #OFF
 #        discovery: INFO #OFF
