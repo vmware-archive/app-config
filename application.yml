@@ -9,8 +9,8 @@ management:
 logging:
   level:
     io:
-      pivotal: DEBUG
-    com: DEBUG
+      pivotal: INFO
+    com: WARN
 #      netflix: INFO
 #        eureka: INFO #OFF
 #        discovery: INFO #OFF
