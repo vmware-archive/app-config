@@ -10,11 +10,11 @@ logging:
   level:
     io:
       pivotal: DEBUG
-    com: WARN
-      netflix:
+#    com: WARN
+#      netflix:
 #        eureka: INFO #OFF
 #        discovery: INFO #OFF
-#        hystrix.AbstractCommand: DEBUG
+#      hystrix.AbstractCommand: DEBUG
 
 ##### spring.cloud.services.registrationMethod #####
 # To change value of spring.cloud.services.registrationMethod to 
