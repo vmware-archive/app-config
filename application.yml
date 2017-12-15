@@ -15,6 +15,11 @@ logging:
 #        eureka: INFO #OFF
 #        discovery: INFO #OFF
 #      hystrix.AbstractCommand: DEBUG
+    org:
+      flywaydb: DEBUG
+        core.internal:
+          dbsupport.SqlScript: DEBUG # SQL only
+          command.DbMigrate: DEBUG
 
 ##### spring.cloud.services.registrationMethod #####
 # To change value of spring.cloud.services.registrationMethod to 
