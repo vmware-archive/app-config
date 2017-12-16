@@ -1,5 +1,13 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: none
-    database: MYSQL
+      # ddl-auto: none
+      # Validate the database schema according to the entities that in the application
+      # Throws an error if the schema doesn’t match the entity specifications
+      ddl-auto: validate
+    # database: MYSQL
+    ## Hibernate Properties
+    # The SQL dialect makes Hibernate generate better SQL for the chosen database
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
