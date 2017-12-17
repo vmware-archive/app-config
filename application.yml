@@ -16,7 +16,7 @@ logging:
       netflix: FATAL
 #        eureka: INFO #OFF
 #        discovery: INFO #OFF
-#      hystrix.AbstractCommand: DEBUG
+      hystrix.AbstractCommand: DEBUG
     org:
       flywaydb: DEBUG
 #        core.internal:
