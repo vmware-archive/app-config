@@ -1,4 +1,0 @@
-#quoteServiceURL: http://quote-service-qa.cfapps.io/quote
-
-greeting:
-  displayFortune: true

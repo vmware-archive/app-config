@@ -1,0 +1,6 @@
+fortuneServiceURL: https://fortune-service.apps.internal
+
+#quoteServiceURL: http://quote-service-qa.cfapps.io/quote
+
+#greeting:
+#  displayFortune: true
