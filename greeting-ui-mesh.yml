@@ -1,6 +1,5 @@
 fortuneServiceURL: http://fortune-service.apps.internal:8080
 
-#quoteServiceURL: http://quote-service-qa.cfapps.io/quote
-
-#greeting:
-#  displayFortune: true
+ribbon:
+  eureka:
+    enabled: false
