@@ -1,4 +1,4 @@
-fortuneServiceURL: fortune-service.apps.internal
+fortuneServiceURL: http://fortune-service.apps.internal
 
 #quoteServiceURL: http://quote-service-qa.cfapps.io/quote
 
