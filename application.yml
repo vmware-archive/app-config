@@ -9,6 +9,9 @@ management:
     web:
       exposure:
         include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
 
 # TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
 logging:
