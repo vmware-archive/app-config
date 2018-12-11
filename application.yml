@@ -13,7 +13,7 @@ management:
     shutdown:
       enabled: true
 
-# TRACE, DEBUG, INFO, WARN, ERROR, FATAL, OFF
+# TRACE, DEBUG, INFO, WARN, ERROR, FATAL, 'OFF' (quote OFF so it is interpreted as a String and not a boolean)
 logging:
   level:
     root: WARN
@@ -21,8 +21,8 @@ logging:
       pivotal: DEBUG
 #    com:
 #      netflix: FATAL
-#        eureka: INFO #OFF
-#        discovery: INFO #OFF
+#        eureka: INFO #'OFF'
+#        discovery: INFO #'OFF'
 #      hystrix.AbstractCommand: DEBUG
 #    org:
 #      flywaydb: DEBUG
