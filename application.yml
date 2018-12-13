@@ -4,7 +4,7 @@
 
 management:
   security:
-    enabled: true 
+    enabled: false 
   endpoints:
     web:
       exposure:
@@ -18,7 +18,7 @@ logging:
   level:
     root: FATAL 
     io:
-      pivotal: DEBUG
+      pivotal: INFO
 #    com:
 #      netflix: ERROR
 #        eureka: DEBUG #'OFF'
