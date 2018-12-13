@@ -4,7 +4,7 @@
 
 management:
   security:
-    enabled: false
+    enabled: true 
   endpoints:
     web:
       exposure:
