@@ -5,3 +5,7 @@ spring:
     service-registry:
       auto-registration:
         enabled: false
+
+ribbon:
+  eureka:
+    enabled: false
