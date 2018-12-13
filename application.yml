@@ -16,7 +16,7 @@ management:
 # TRACE, DEBUG, INFO, WARN, ERROR, FATAL, 'OFF' (quote OFF so it is interpreted as a String and not a boolean)
 logging:
   level:
-    root: FATAL
+    root: DEBUG 
     io:
       pivotal: DEBUG
 #    com:
