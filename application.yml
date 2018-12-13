@@ -19,10 +19,10 @@ logging:
     root: WARN
     io:
       pivotal: DEBUG
-#    com:
-#      netflix: FATAL
-#        eureka: INFO #'OFF'
-#        discovery: INFO #'OFF'
+    com:
+      netflix: DEBUG
+        eureka: DEBUG #'OFF'
+        discovery: DEBUG #'OFF'
 #      hystrix.AbstractCommand: DEBUG
 #    org:
 #      flywaydb: DEBUG
