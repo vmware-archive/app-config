@@ -34,7 +34,6 @@ logging:
 spring:
   jpa:
     hibernate:
-      # ddl-auto: none
       # Validate the database schema according to the entities that in the application
       # Throws an error if the schema doesn’t match the entity specifications
       ddl-auto: validate
