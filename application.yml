@@ -30,6 +30,21 @@ logging:
 #          dbsupport.SqlScript: DEBUG # SQL only
 #          command.DbMigrate: DEBUG
 
+# Enable flyway
+spring:
+  jpa:
+    hibernate:
+      # ddl-auto: none
+      # Validate the database schema according to the entities that in the application
+      # Throws an error if the schema doesn’t match the entity specifications
+      ddl-auto: validate
+    # database: MYSQL
+    ## Hibernate Properties
+    # The SQL dialect makes Hibernate generate better SQL for the chosen database
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5Dialect
+
 ##### spring.cloud.services.registrationMethod #####
 # To change value of spring.cloud.services.registrationMethod to 
 # "direct" (default is "route"), add "c2c" to active profiles
