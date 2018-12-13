@@ -19,8 +19,8 @@ logging:
     root: INFO
     io:
       pivotal: INFO
-#    com:
-#      netflix: DEBUG
+    com:
+      netflix: WARN
 #        eureka: DEBUG #'OFF'
 #        discovery: DEBUG #'OFF'
 #      hystrix.AbstractCommand: DEBUG
