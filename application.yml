@@ -1,7 +1,3 @@
-#spring:
-#  autoconfigure:
-#    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
-
 management:
   security:
     enabled: false 
@@ -18,7 +14,7 @@ logging:
   level:
     root: FATAL 
     io:
-      pivotal: INFO
+      pivotal: DEBUG 
 #    com:
 #      netflix: ERROR
 #        eureka: DEBUG #'OFF'
@@ -32,25 +28,17 @@ logging:
 
 # Enable flyway
 spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
   jpa:
     hibernate:
-      # Validate the database schema according to the entities that in the application
-      # Throws an error if the schema doesn’t match the entity specifications
       ddl-auto: validate
-    # database: MYSQL
-    ## Hibernate Properties
-    # The SQL dialect makes Hibernate generate better SQL for the chosen database
+#      database: MYSQL
 #    properties:
 #      hibernate:
 #        dialect: org.hibernate.dialect.MySQL5Dialect
-
-##### spring.cloud.services.registrationMethod #####
-# To change value of spring.cloud.services.registrationMethod to 
-# "direct" (default is "route"), add "c2c" to active profiles
+#  rabbitmq:
+#    addresses: ${vcap.services.cloud-bus.credentials.http_api_uris:http://localhost:5672}
 
 ribbon: # <---NEW SECTION
   IsSecure: false
-
-#spring:
-#  rabbitmq:
-#    addresses: ${vcap.services.cloud-bus.credentials.http_api_uris:http://localhost:5672}
