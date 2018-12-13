@@ -20,7 +20,7 @@ logging:
     io:
       pivotal: DEBUG
     com:
-      netflix: WARN
+      netflix: ERROR 
 #        eureka: DEBUG #'OFF'
 #        discovery: DEBUG #'OFF'
 #      hystrix.AbstractCommand: DEBUG
