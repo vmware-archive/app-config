@@ -17,8 +17,8 @@ management:
 logging:
   level:
     ROOT: FATAL 
-#    io:
-#      pivotal: DEBUG
+    io:
+      pivotal: DEBUG
 #    com:
 #      netflix: ERROR 
 #        eureka: DEBUG #'OFF'
