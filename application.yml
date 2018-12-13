@@ -26,10 +26,10 @@ logging:
 #          dbsupport.SqlScript: DEBUG # SQL only
 #          command.DbMigrate: DEBUG
 
-# Enable flyway
 spring:
   autoconfigure:
     exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+# Enable flyway
   jpa:
     hibernate:
       ddl-auto: validate
