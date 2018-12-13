@@ -16,11 +16,11 @@ management:
 # TRACE, DEBUG, INFO, WARN, ERROR, FATAL, 'OFF' (quote OFF so it is interpreted as a String and not a boolean)
 logging:
   level:
-    root: INFO
+    root: ERROR 
     io:
       pivotal: DEBUG
-    com:
-      netflix: ERROR 
+#    com:
+#      netflix: ERROR 
 #        eureka: DEBUG #'OFF'
 #        discovery: DEBUG #'OFF'
 #      hystrix.AbstractCommand: DEBUG
