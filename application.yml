@@ -16,13 +16,13 @@ management:
 # TRACE, DEBUG, INFO, WARN, ERROR, FATAL, 'OFF' (quote OFF so it is interpreted as a String and not a boolean)
 logging:
   level:
-    root: DEBUG
+    root: INFO
     io:
-      pivotal: DEBUG
-    com:
-      netflix: DEBUG
-        eureka: DEBUG #'OFF'
-        discovery: DEBUG #'OFF'
+      pivotal: INFO
+#    com:
+#      netflix: DEBUG
+#        eureka: DEBUG #'OFF'
+#        discovery: DEBUG #'OFF'
 #      hystrix.AbstractCommand: DEBUG
 #    org:
 #      flywaydb: DEBUG
