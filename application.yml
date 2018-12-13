@@ -18,7 +18,7 @@ logging:
   level:
     root: INFO
     io:
-      pivotal: INFO
+      pivotal: DEBUG
     com:
       netflix: WARN
 #        eureka: DEBUG #'OFF'
