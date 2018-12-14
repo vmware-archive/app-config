@@ -4,6 +4,16 @@ logging:
     root: FATAL 
     io:
       pivotal: INFO
+#    com:
+#      netflix: ERROR
+#        eureka: DEBUG #'OFF'
+#        discovery: DEBUG #'OFF'
+#      hystrix.AbstractCommand: DEBUG
+#    org:
+#      flywaydb: DEBUG
+#        core.internal:
+#          dbsupport.SqlScript: DEBUG # SQL only
+#          command.DbMigrate: DEBUG
 
 management:
   security:
