@@ -3,4 +3,4 @@ logging:
   level:
     root: FATAL 
     io:
-      pivotal: DEBUG
+      pivotal: INFO
