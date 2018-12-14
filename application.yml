@@ -4,3 +4,14 @@ logging:
     root: FATAL 
     io:
       pivotal: INFO
+
+management:
+  security:
+    enabled: false 
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      enabled: true
