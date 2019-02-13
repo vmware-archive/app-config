@@ -3,7 +3,7 @@ logging:
   level:
     root: FATAL 
     io:
-      pivotal: INFO
+      pivotal: DEBUG
 #    com:
 #      netflix: ERROR
 #        eureka: DEBUG #'OFF'
